@@ -6,72 +6,81 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Max Weiner Hurriaga | Portfolio</title>
-
 </head>
 <body>
-<button type="button" onclick="DarkMode()">Toggle Dark Mode</button>
-<header>
-  <div class="container">
-    <h1 class="center underline">Max Weiner Hurriaga</h1>
-    <p class="subtitle center">Software Developer Portfolio</p>
-  </div>
-</header>
 
-<main class="container">
-  <section aria-labelledby="about-heading">
-    <h2 id="about-heading" class="center">About Me</h2>
-    <p>
-      I build practical, reliable software and enjoy solving real-world problems with clear and maintainable code.
-      I value collaboration, continuous learning, and shipping work that creates measurable impact.
-    </p>
-  </section>
+<div id="Sidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeBar()">&times;</a>
+  <button type="button" onclick="DarkMode()">Toggle Dark Mode</button>
+</div>
+<div id="main">
+  <button class="openbtn" onclick="openBar()">&#9776;</button>
 
-  <section aria-labelledby="projects-heading">
-    <h2 id="projects-heading" class="center">Projects</h2>
-    <ul class="project-list">
-      <li>
-        <h3>Project 1: Portfolio Website</h3>
-        <p>A clean, responsive portfolio website focused on helping employers quickly understand my work and strengths.</p>
-      </li>
-      <li>
-        <h3>Project 2: Allergen Detection Program</h3>
-        <p>Replace this with a project that showcases your technical depth, impact, and ownership.</p>
-      </li>
-      <li>
-        <h3>Project 3: Physical Intruder Alarm Project</h3>
-        <p>Replace this with a project that demonstrates collaboration, testing, and production-ready development.</p>
-      </li>
-    </ul>
-  </section>
 
-  <section aria-labelledby="skills-heading">
-    <h2 id="skills-heading" class="center">Skills</h2>
-    <ul class="skill-list center" >
-      <li>JavaScript</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Git</li>
-      <li>Python</li>
-      <li>Microsoft Office</li>
-      <li>Adobe Premiere Pro</li>
-      <li>Adobe After Effects</li>
-      <li>Skateboarding</li>
-      <li>Team Work</li>
-      <li>Problem Solving</li>
-      <li>Native Spanish Speaker</li>
-    </ul>
-  </section>
 
-  <section aria-labelledby="contact-heading">
-    <h2 id="contact-heading" class="center">Contact</h2>
-    <p>Email: <a href="mailto:max@example.com">max@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/mewtwone">github.com/mewtwone</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com">Add your LinkedIn profile</a></p>
-  </section>
-</main>
+  <header>
+    <div class="container">
+      <h1 class="center underline">Max Weiner Hurriaga</h1>
+      <p class="subtitle center">Student<br> University of Kent <br> B.Sc. (Hons) Software Engineering with a year in industry </p>
+    </div>
+  </header>
 
-<footer>
-  <p>© <span id="year">2026</span> Max Weiner Hurriaga. All rights reserved.</p>
-</footer>
+
+  <main class="container">
+    <section aria-labelledby="about-heading">
+      <h2 id="about-heading" class="center">About Me</h2>
+      <p>
+        I build practical, reliable software and enjoy solving real-world problems with clear and maintainable code.
+        I value collaboration, continuous learning, and shipping work that creates measurable impact. My goal is to work on projects that affect the day-to-day lives of people in a positive way.
+      </p>
+    </section>
+
+    <section aria-labelledby="projects-heading">
+      <h2 id="projects-heading" class="center">Projects</h2>
+      <ul class="project-list">
+        <li>
+          <h3>Project 1: Portfolio Website</h3>
+          <p>A clean, responsive portfolio website focused on helping employers quickly understand my work and strengths.</p>
+        </li>
+        <li>
+          <h3>Project 2: Allergen Detection Program</h3>
+          <p>Replace this with a project that showcases your technical depth, impact, and ownership.</p>
+        </li>
+        <li>
+          <h3>Project 3: Physical Intruder Alarm Project</h3>
+          <p>Replace this with a project that demonstrates collaboration, testing, and production-ready development.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="skills-heading">
+      <h2 id="skills-heading" class="center">Skills</h2>
+      <ul class="skill-list center" >
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Git</li>
+        <li>Python</li>
+        <li>Microsoft Office</li>
+        <li>Adobe Premiere Pro</li>
+        <li>Adobe After Effects</li>
+        <li>Skateboarding</li>
+        <li>Team Work</li>
+        <li>Problem Solving</li>
+        <li>Native Spanish Speaker</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="contact-heading">
+      <h2 id="contact-heading" class="center">Contact</h2>
+      <p>Email: <a href="mailto:max@example.com">max@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/mewtwone">github.com/mewtwone</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com">Add your LinkedIn profile</a></p>
+    </section>
+  </main>
+</div>
+  <footer>
+    <p>© <span id="year">2026</span> Max Weiner Hurriaga. All rights reserved.</p>
+  </footer>
 </body>
 </html>
