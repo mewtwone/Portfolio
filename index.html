@@ -1,169 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Max Weiner Hurriaga | Portfolio</title>
-  <style>
-    :root {
-      color-scheme: light;
-      --bg: #f6f8fb;
-      --surface: #ffffff;
-      --text: #1f2937;
-      --muted: #4b5563;
-      --accent: #2563eb;
-      --border: #e5e7eb;
-    }
 
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      color: var(--text);
-      background: var(--bg);
-    }
-
-    header {
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      padding: 3rem 1rem;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-    }
-
-    h1, h2, h3 {
-      margin-top: 0;
-      line-height: 1.2;
-    }
-
-    h1 {
-      font-size: 2.25rem;
-      margin-bottom: 0.5rem;
-    }
-
-    .subtitle {
-      margin: 0;
-      color: var(--muted);
-      font-size: 1.1rem;
-    }
-
-    main {
-      padding: 2rem 1rem 3rem;
-    }
-
-    section {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.5rem;
-      margin-bottom: 1.25rem;
-    }
-
-    ul {
-      padding-left: 1.2rem;
-      margin: 0;
-    }
-
-    .project-list li + li {
-      margin-top: 1rem;
-    }
-
-    .skill-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      list-style: none;
-      padding: 0;
-    }
-
-    .skill-list li {
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      padding: 0.35rem 0.75rem;
-      background: #f8fafc;
-    }
-
-    a {
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    a:hover,
-    a:focus {
-      text-decoration: underline;
-    }
-
-    footer {
-      text-align: center;
-      color: var(--muted);
-      padding: 0 1rem 2rem;
-    }
-  </style>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>Max Weiner Hurriaga</h1>
-      <p class="subtitle">Software Developer Portfolio</p>
-    </div>
-  </header>
+<header>
+  <div class="container">
+    <h1 class="center underline">Max Weiner Hurriaga</h1>
+    <p class="subtitle center">Software Developer Portfolio</p>
+  </div>
+</header>
 
-  <main class="container">
-    <section aria-labelledby="about-heading">
-      <h2 id="about-heading">About Me</h2>
-      <p>
-        I build practical, reliable software and enjoy solving real-world problems with clear and maintainable code.
-        I value collaboration, continuous learning, and shipping work that creates measurable impact.
-      </p>
-    </section>
+<main class="container">
+  <section aria-labelledby="about-heading">
+    <h2 id="about-heading">About Me</h2>
+    <p>
+      I build practical, reliable software and enjoy solving real-world problems with clear and maintainable code.
+      I value collaboration, continuous learning, and shipping work that creates measurable impact.
+    </p>
+  </section>
 
-    <section aria-labelledby="projects-heading">
-      <h2 id="projects-heading">Projects</h2>
-      <ul class="project-list">
-        <li>
-          <h3>Project 1: Portfolio Website</h3>
-          <p>A clean, responsive portfolio website focused on helping employers quickly understand my work and strengths.</p>
-        </li>
-        <li>
-          <h3>Project 2: Add Your Highlighted Project</h3>
-          <p>Replace this with a project that showcases your technical depth, impact, and ownership.</p>
-        </li>
-        <li>
-          <h3>Project 3: Add Another Project</h3>
-          <p>Replace this with a project that demonstrates collaboration, testing, and production-ready development.</p>
-        </li>
-      </ul>
-    </section>
+  <section aria-labelledby="projects-heading">
+    <h2 id="projects-heading">Projects</h2>
+    <ul class="project-list">
+      <li>
+        <h3>Project 1: Portfolio Website</h3>
+        <p>A clean, responsive portfolio website focused on helping employers quickly understand my work and strengths.</p>
+      </li>
+      <li>
+        <h3>Project 2: Add Your Highlighted Project</h3>
+        <p>Replace this with a project that showcases your technical depth, impact, and ownership.</p>
+      </li>
+      <li>
+        <h3>Project 3: Add Another Project</h3>
+        <p>Replace this with a project that demonstrates collaboration, testing, and production-ready development.</p>
+      </li>
+    </ul>
+  </section>
 
-    <section aria-labelledby="skills-heading">
-      <h2 id="skills-heading">Skills</h2>
-      <ul class="skill-list">
-        <li>JavaScript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Git</li>
-        <li>Problem Solving</li>
-        <li>Team Collaboration</li>
-      </ul>
-    </section>
+  <section aria-labelledby="skills-heading">
+    <h2 id="skills-heading">Skills</h2>
+    <ul class="skill-list">
+      <li>JavaScript</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Git</li>
+      <li>Problem Solving</li>
+      <li>Team Collaboration</li>
+    </ul>
+  </section>
 
-    <section aria-labelledby="contact-heading">
-      <h2 id="contact-heading">Contact</h2>
-      <p>Email: <a href="mailto:max@example.com">max@example.com</a></p>
-      <p>GitHub: <a href="https://github.com/mewtwone">github.com/mewtwone</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com">Add your LinkedIn profile</a></p>
-    </section>
-  </main>
+  <section aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact</h2>
+    <p>Email: <a href="mailto:max@example.com">max@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/mewtwone">github.com/mewtwone</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com">Add your LinkedIn profile</a></p>
+  </section>
+</main>
 
-  <footer>
-    <p>© <span id="year">2026</span> Max Weiner Hurriaga. All rights reserved.</p>
-  </footer>
+<footer>
+  <p>© <span id="year">2026</span> Max Weiner Hurriaga. All rights reserved.</p>
+</footer>
 </body>
 </html>
