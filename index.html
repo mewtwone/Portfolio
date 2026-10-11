@@ -39,15 +39,15 @@
       <h2 id="projects-heading" class="center">Projects</h2>
       <ul class="project-list">
         <li>
-          <h3>Project 1: Allergen Detection Program: <a href="https://github.com/mewtwone/Allergen-Detection-EPQ"> GitHub Link</a></h3>
+          <h3>Project 1: Allergen Detection Program: <a class="link" href="https://github.com/mewtwone/Allergen-Detection-EPQ"> GitHub Link</a></h3>
           <p>A Python-based program that uses web scraping to retrieve ingredient information from products using their barcodes. Users can enter the barcodes of two products they are allergic to, and the program compares their ingredient lists to identify common ingredients. The results are then formatted into a clear, readable output, helping users quickly identify potential shared allergens.</p>
 
         <li>
-          <h3>Project 2: BeamNG 'Road to f1' career mode mod: <a href="https://github.com/mewtwone/Beamng-road-to-f1-mod">GitHub Link</a></h3>
+          <h3>Project 2: BeamNG 'Road to f1' career mode mod: <a class="link" href="https://github.com/mewtwone/Beamng-road-to-f1-mod">GitHub Link</a></h3>
           <p>BeamNG mod created alongside ChatGPT, using Lua, JavaScript, HTML and CSS. The features include real time lap timing, vehicle damage assessment, repair costs, sponsorships, championship progression and an interactive dashboard. This project demonstrates my programming ability, UI/UX design, problem-solving, iterative testing and my ability to work alongside AI to develop a complex project.</p>
         </li>
         <li>
-          <h3>Project 3: Matching pairs game: <a href="cardGame/mew1.html">dog</a></h3>
+          <h3>Project 3: Matching pairs game: <a class="link" href="cardGame/mew1.html">Interactive web game</a></h3>
           <p>Developed an interactive memory card game using HTML, CSS, and JavaScript, featuring randomized cards, multiple difficulty levels, move tracking, and win/loss detection. Demonstrates skills in front-end development, JavaScript logic, DOM manipulation, and user interface design.</p>
         </li>
         <li>
@@ -66,27 +66,38 @@
 
     <section aria-labelledby="skills-heading">
       <h2 id="skills-heading" class="center">Skills</h2>
-      <ul class="skill-list center" >
-        <li class="skill">JavaScript</li>
-        <li class="skill">HTML</li>
-        <li class="skill">CSS</li>
-        <li class="skill">Git</li>
-        <li class="skill">Python</li>
-        <li class="skill">Microsoft Office</li>
-        <li class="skill">Adobe Premiere Pro</li>
-        <li class="skill">Adobe After Effects</li>
-        <li class="skill">Skateboarding</li>
-        <li class="skill">Team Work</li>
-        <li class="skill">Problem Solving</li>
-        <li class="skill">Native Spanish Speaker</li>
+
+      <ul class="skill-list center">
+        <li class="skill" onclick="showSkill('javascript')">JavaScript</li>
+        <li class="skill" onclick="showSkill('html')">HTML</li>
+        <li class="skill" onclick="showSkill('css')">CSS</li>
+        <li class="skill" onclick="showSkill('git')">Git</li>
+        <li class="skill" onclick="showSkill('python')">Python</li>
+        <li class="skill" onclick="showSkill('office')">Microsoft Office</li>
+        <li class="skill" onclick="showSkill('premiere')">Adobe Premiere Pro</li>
+        <li class="skill" onclick="showSkill('aftereffects')">Adobe After Effects</li>
+        <li class="skill" onclick="showSkill('skateboarding')">Skateboarding</li>
+        <li class="skill" onclick="showSkill('teamwork')">Team Work</li>
+        <li class="skill" onclick="showSkill('problemsolving')">Problem Solving</li>
+        <li class="skill" onclick="showSkill('spanish')">Native Spanish Speaker</li>
       </ul>
+      <div id="skillDescription" class="skill-description" hidden>
+        <h3 id="skillTitle"></h3>
+        <p id="skillText"></p>
+
+        <!-- Video for After Effects -->
+        <video id="skillVideo" controls hidden></video>
+      </div>
+
     </section>
 
     <section aria-labelledby="contact-heading">
-      <h2 id="contact-heading" class="center">Contact</h2>
-      <p>Email: <a href="mailto:maxweinerh@gmail.com">maxweinerh@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/mewtwone">mewtwone</a></p>
-      <p>LinkedIn: <a href="https://uk.linkedin.com/in/max-weiner-hurriaga-5372513a3">Linkedin Profile</a></p>
+      <h2 id="contact-heading" class="center">Important Links</h2>
+      <p>Email: <a class="link" href="mailto:maxweinerh@gmail.com">maxweinerh@gmail.com</a></p>
+      <p>GitHub: <a class="link" href="https://github.com/mewtwone">mewtwone</a></p>
+      <p>LinkedIn: <a class="link" href="https://uk.linkedin.com/in/max-weiner-hurriaga-5372513a3">Linkedin Profile</a></p>
+      <p>Codewars: <a class="link" href="https://www.codewars.com/users/MaxWrgc">Codewars Profile</a></p>
+      <img alt="Codewars badge" src="https://www.codewars.com/users/MaxWrgc/badges/large">
     </section>
   </main>
 </div>
