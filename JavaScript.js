@@ -5,7 +5,7 @@ function DarkMode() {
 function openBar() {
     document.getElementById("bar").innerHTML = "&#10006;";
     if (document.getElementById("Sidebar").style.width === "250px") {
-        document.getElementById("bar").textContent = "&#9776;";
+        document.getElementById("bar").innerHTML = "&#9776;";
         closeBar();
     } else {
         document.getElementById("Sidebar").style.width = "250px";
