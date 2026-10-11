@@ -249,3 +249,8 @@ footer {
 #skillVideo[hidden] {
     display: none;
 }
+.highlight {
+    color: black;
+    background-color: yellow;
+    font-weight: bold;
+}
