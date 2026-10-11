@@ -22,52 +22,52 @@ function closeBar() {
 const skills = {
     javascript: {
         title: "JavaScript",
-        description: "I use JavaScript to add interactivity and functionality to websites, including dynamic content, event handling, and responsive user interfaces."
+        description: "I use JavaScript to <span class='highlight'>add interactivity and functionality to websites</span>, including dynamic content, event handling, and responsive user interfaces."
     },
     html: {
         title: "HTML",
-        description: "I use HTML to build well-structured, accessible web pages, with an understanding of semantic elements and how they contribute to usability, such as this one."
+        description: "I use HTML to build <span class='highlight'>well-structured, accessible web pages</span>, with an understanding of semantic elements and how they contribute to usability, such as this one."
     },
     css: {
         title: "CSS",
-        description: "I use CSS to create visually appealing, responsive websites, including layouts, animations, transitions, and light/dark themes."
+        description: "I use CSS to create <span class='highlight'>visually appealing, responsive websites</span>, including layouts, animations, transitions, and light/dark themes."
     },
     git: {
         title: "GitHub",
-        description: "I use GitHub to manage versions of my code, track changes, and maintain an organised development workflow as I am aware it is an industry standard."
+        description: "I use GitHub to manage versions of my code, track changes, and <span class='highlight'>maintain an organised development workflow</span> as I am aware it is an industry standard."
     },
     python: {
         title: "Python",
-        description: "I have an extensive experience writing Python programs and using programming concepts such as functions, loops, and conditional logic to solve all sorts of technical problems."
+        description: "I have an <span class='highlight'>extensive experience writing Python programs for over 7 years</span> and using programming concepts such as functions, loops, and conditional logic to solve all sorts of technical problems."
     },
     office: {
         title: "Microsoft Office",
-        description: "I am comfortable using Microsoft Office applications, including Word, Excel, and PowerPoint, to produce documents, organise information, and create presentations."
+        description: "I am <span class='highlight'>extremely comfortable navigating Microsoft Office applications</span>, including Word, Excel, and PowerPoint, to produce documents, organise information, and create presentations."
     },
     premiere: {
         title: "Adobe Premiere Pro",
-        description: "I have experience editing video content using Adobe Premiere Pro, including cutting footage, arranging sequences, and working with audio and visual effects."
+        description: "<span class='highlight'>I have 7 years experience editing video content using Adobe Premiere Pro</span>, including cutting footage, arranging sequences, and working with audio and visual effects."
     },
     aftereffects: {
         title: "Adobe After Effects",
-        description: "I have experience using Adobe After Effects to create motion graphics, animations, and visual effects for video projects. Below is an example showcasing my ability to work with 3d objects and motion graphing.",
+        description: "<span class='highlight'>I have 3 years of experience using Adobe After Effects</span> to create motion graphics, animations, and visual effects for video projects. Below is an example showcasing my ability to work with 3d objects and motion graphing.",
         video: "videos/apple.mp4"
     },
     skateboarding: {
         title: "Skateboarding",
-        description: "Skateboarding has helped me develop persistence, patience, and resilience. Learning new tricks requires consistent practice, problem-solving, and a willingness to learn from mistakes. I am also currently social secretary for my universities 'Skate Society'."
+        description: "Skateboarding has helped me develop persistence, patience, and resilience. Learning new tricks requires consistent practice, problem-solving, and a willingness to learn from mistakes. <span class='highlight'>I am also currently social secretary for my university's Skate Society.</span>"
     },
     teamwork: {
         title: "Team Work",
-        description: "I enjoy collaborating with others, sharing ideas, and contributing towards common goals. I value clear communication, reliability, and learning from different perspectives."
+        description: "I enjoy collaborating with others, sharing ideas, and contributing towards common goals. I value clear communication, reliability, and learning from different perspectives, <span class='highlight'>my experience managing at Gregg's has really helped with my teamwork skills.</span>"
     },
     problemsolving: {
         title: "Problem Solving",
-        description: "I approach challenges logically by breaking problems into smaller steps, exploring possible solutions, and learning from the results. I particularly enjoy applying this approach to programming."
+        description: "I approach challenges <span class='highlight'>logically by breaking problems into smaller steps</span>, exploring possible solutions, and learning from the results. I particularly enjoy applying this approach to programming."
     },
     spanish: {
         title: "Native Spanish Speaker",
-        description: "I am a native Spanish speaker, allowing me to communicate confidently in Spanish and contribute to environments involving Spanish-speaking colleagues or customers."
+        description: "<span class='highlight'>I am a native Spanish speaker</span>, allowing me to communicate confidently in Spanish and contribute to environments involving Spanish-speaking colleagues or customers."
     }
 };
 
@@ -87,7 +87,7 @@ function showSkill(skill) {
     }
 
     title.textContent = skills[skill].title;
-    text.textContent = skills[skill].description;
+    text.innerHTML = skills[skill].description;
 
     video.pause();
 
