@@ -13,7 +13,6 @@ function openBar() {
     }
 }
 
-
 function closeBar() {
     document.getElementById("Sidebar").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
